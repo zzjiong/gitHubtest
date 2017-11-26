@@ -15,7 +15,7 @@
 		A621627D1FCAB79800EF87DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A621627C1FCAB79800EF87DA /* main.m */; };
 		A62162871FCAB79800EF87DA /* githubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62162861FCAB79800EF87DA /* githubTestTests.m */; };
 		A62162921FCAB79800EF87DA /* githubTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62162911FCAB79800EF87DA /* githubTestUITests.m */; };
-		A62162A11FCABA8500EF87DA /* ZJHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A62162A01FCABA8500EF87DA /* ZJHTTPSessionManager.m */; };
+		A62162A61FCAC26700EF87DA /* ZJHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A62162A51FCAC26700EF87DA /* ZJHTTPSessionManager.m */; };
 		B4393787B7D732CCEF2C986B /* libPods-githubTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE17827FA151B71C493118B /* libPods-githubTest.a */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +54,8 @@
 		A621628D1FCAB79800EF87DA /* githubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62162911FCAB79800EF87DA /* githubTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githubTestUITests.m; sourceTree = "<group>"; };
 		A62162931FCAB79800EF87DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A621629F1FCABA8500EF87DA /* ZJHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHTTPSessionManager.h; sourceTree = "<group>"; };
-		A62162A01FCABA8500EF87DA /* ZJHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHTTPSessionManager.m; sourceTree = "<group>"; };
+		A62162A41FCAC26700EF87DA /* ZJHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJHTTPSessionManager.h; sourceTree = "<group>"; };
+		A62162A51FCAC26700EF87DA /* ZJHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJHTTPSessionManager.m; sourceTree = "<group>"; };
 		D4C2E5A00729B188693C38F0 /* Pods-githubTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-githubTest/Pods-githubTest.release.xcconfig"; sourceTree = "<group>"; };
 		EDE17827FA151B71C493118B /* libPods-githubTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-githubTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,12 +128,11 @@
 		A621626C1FCAB79800EF87DA /* githubTest */ = {
 			isa = PBXGroup;
 			children = (
+				A62162A31FCAC26700EF87DA /* ZJHTTPSessionManager */,
 				A621626D1FCAB79800EF87DA /* AppDelegate.h */,
 				A621626E1FCAB79800EF87DA /* AppDelegate.m */,
 				A62162701FCAB79800EF87DA /* ViewController.h */,
 				A62162711FCAB79800EF87DA /* ViewController.m */,
-				A621629F1FCABA8500EF87DA /* ZJHTTPSessionManager.h */,
-				A62162A01FCABA8500EF87DA /* ZJHTTPSessionManager.m */,
 				A62162731FCAB79800EF87DA /* Main.storyboard */,
 				A62162761FCAB79800EF87DA /* Assets.xcassets */,
 				A62162781FCAB79800EF87DA /* LaunchScreen.storyboard */,
@@ -159,6 +158,15 @@
 				A62162931FCAB79800EF87DA /* Info.plist */,
 			);
 			path = githubTestUITests;
+			sourceTree = "<group>";
+		};
+		A62162A31FCAC26700EF87DA /* ZJHTTPSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				A62162A41FCAC26700EF87DA /* ZJHTTPSessionManager.h */,
+				A62162A51FCAC26700EF87DA /* ZJHTTPSessionManager.m */,
+			);
+			path = ZJHTTPSessionManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A62162A11FCABA8500EF87DA /* ZJHTTPSessionManager.m in Sources */,
+				A62162A61FCAC26700EF87DA /* ZJHTTPSessionManager.m in Sources */,
 				A62162721FCAB79800EF87DA /* ViewController.m in Sources */,
 				A621627D1FCAB79800EF87DA /* main.m in Sources */,
 				A621626F1FCAB79800EF87DA /* AppDelegate.m in Sources */,
